@@ -3,13 +3,38 @@ body{
 
 }
 
-.quem-somos{
-    background-color: bisque;
+/* Area de Produto */
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
 
 }
 
-.margin{
-    margin-top: 10px;
 
+.posi-title{
+    margin-top: 10px;
+    text-align: center;
+}
+.coluA{
+    background-color:beige
+}
+
+.coluB{
+    background-color:firebrick
+}
+
+.coluC{
+    background-color:gray;
+}
+
+.coluD{
+    background-color:gold;
+}
+
+.btn-dark{
+    width: 80%;
+    position: relative;
+    background-position-x: 70% ;
 
 }
